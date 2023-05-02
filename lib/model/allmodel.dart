@@ -1,5 +1,5 @@
 class AllModel {
-  List k;
+  List<Map<String,dynamic>> k;
 
   AllModel({required this.k});
 }

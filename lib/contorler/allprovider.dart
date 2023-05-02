@@ -18,12 +18,11 @@ class AllProvider extends ChangeNotifier {
 
       Map<String, dynamic> k = curre_apiid['data'];
       print(k);
-      List<Map<String, dynamic>> m = [];
+
       k.forEach((key, value) {
-        m.add(value);
+        allModel.k.add(value);
       });
-      allModel.k = m;
-      print(allModel.k);
+
       return allModel.k;
     }
 

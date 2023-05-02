@@ -22,6 +22,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
+    
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (context) => CurrecnyProvider(),),
@@ -29,7 +30,9 @@ class _MyAppState extends State<MyApp> {
         ChangeNotifierProvider(create: (context) => AllProvider(),),
       ],
       builder: (context, child) {
+        Provider.of<AllProvider>(context,listen: false).getCurrency();
         return MaterialApp(
+          debugShowCheckedModeBanner: false,
           theme: ThemeData(
             useMaterial3: true,
             brightness: Brightness.light,
@@ -39,7 +42,7 @@ class _MyAppState extends State<MyApp> {
             brightness: Brightness.dark,
           ),
           themeMode: (Provider.of<ThemeProvider>(context).themeModel.isdark)?ThemeMode.dark:ThemeMode.light,
-          home: SerchPage(),
+          home: sple_scenne(),
         );
       },
     );
