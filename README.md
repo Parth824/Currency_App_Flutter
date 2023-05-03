@@ -29,7 +29,7 @@ These are Currency App in which you can Search your needs by Currency.
 
 <img align="left" src="https://user-images.githubusercontent.com/113274690/235864312-1b9f2276-8585-4143-ae83-b6512d090523.jpeg" width="220px">
 
-<img align="left" src="https://user-images.githubusercontent.com/113274690/235864519-803b193c-4421-4b94-b0e3-9318f66b54c6.jpeg" width="220px">
+<img src="https://user-images.githubusercontent.com/113274690/235864519-803b193c-4421-4b94-b0e3-9318f66b54c6.jpeg" width="220px">
 
 <img align="left" src="https://user-images.githubusercontent.com/113274690/235864634-6eb21940-f696-497c-9572-3adb6229444c.jpeg" width="220px">
 
